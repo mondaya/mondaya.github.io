@@ -1,2 +1,0 @@
-# mondaya.github.io
-portfolio
