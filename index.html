@@ -5,23 +5,14 @@
         <link rel="stylesheet" href="/css/style.css"/>
     </head>
     <body>
-        @{var page = "home";}
         <div id="header">
-         
             <nav>
-               
-                 @{if(page == "home")
-                    { 
-                         <a href="/home" active >Home</a>
-                    }    
-                  else
-                    {
-                        <a href="/home">Home</a>
-                    }
-                } |
-                <a href="/projects" >Projects</a> |
-                <a href="/contact" >Contact</a>  
-                           
+              
+                <a href="index.html" >Home</a> |
+                <a href="projects.html" >Projects</a> |                
+                <a href="contact.html"  >Contact</a>  
+                     
+                  
             </nav>
         </div>
         <div id="home">
